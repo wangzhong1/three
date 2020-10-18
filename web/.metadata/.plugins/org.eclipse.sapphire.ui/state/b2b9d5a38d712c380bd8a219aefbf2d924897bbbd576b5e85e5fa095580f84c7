@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<master-details-editor-page-state>
+    <content-outline>
+        <ratio>0.2969140950792327</ratio>
+        <root>
+            <node>
+                <label>General Settings</label>
+                <expanded>true</expanded>
+            </node>
+            <node>
+                <label>Filters</label>
+                <expanded>true</expanded>
+                <selected>true</selected>
+            </node>
+        </root>
+    </content-outline>
+</master-details-editor-page-state>

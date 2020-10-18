@@ -1,0 +1,73 @@
+/*基本信息*/
+body {
+	font: 12px Tahoma;
+	margin: 0px;
+	text-align: center;
+	background: url(bg2.jpg);
+}
+
+a:link,
+a:visited {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:hover {}
+
+/*页面容器*/
+
+#container {
+	width: 800px;
+	height: 600px;
+	margin: 10px auto
+}
+
+/*页面头部*/
+#header {
+	background: url(logo.png) no-repeat
+}
+
+#rightTop {
+	float: right;
+}
+
+#menu {
+	padding: 35px 20px 0 0
+}
+
+#menu ul {
+	float: right;
+	list-style: none;
+	margin: 0px;
+}
+
+#menu ul li {
+	float: left;
+	display: block;
+	line-height: 30px;
+	margin: 0 10px;
+}
+
+#menu ul li a {
+	font-weight: bold;
+	color: #666
+}
+
+#menu ul li a:hover {
+	color: red;
+}
+
+.menuDiv {
+	width: 1px;
+	height: 28px;
+	background: #999
+}
+
+#banner {
+	background: url(banner.jpg) 0 15px no-repeat;
+	width: 730px;
+	margin: auto;
+	height: 225px;
+	border-bottom: 5px solid #EFEFEF;
+	clear: both
+}

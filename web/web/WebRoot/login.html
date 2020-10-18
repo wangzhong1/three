@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>用户登录</title>
+	<link href="login.css" rel="stylesheet" />
+	<script src="login.js"></script>
+</head>
+<body>
+	<div id="loginForm">
+		<form action="login.do" method="post">
+			<p><input type="text" name="userName" id="userName" placeholder="用户名" /></p>
+			<p><input type="password" name="password" id="password" placeholder="密码" /></p>
+			<p><input type="text" name="vcode" id="vcode" placeholder="验证码" />
+				<img src="CreateVerfifyCodeImage.do" id="vcodeImg" onclick="changeImg();" title="看不清, 换一张"/>
+			</p>
+			<p>
+				<input type="submit" id="btLogin" value="登录" /></p>
+		</form>
+	</div>	
+</body>
+</html>
+<script type="text/javascript">
+	//点击验证码图片
+	function changeImg() {
+		//需要让每次请求的url都发生变化。否则服务器会认为访问的是同一张图片，就不会刷新请求了
+		document.getElementById("vcodeImg").src = "CreateVerfifyCodeImage.do?t=" + Math.random();
+	}
+</script>
+
+
+

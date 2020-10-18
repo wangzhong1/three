@@ -1,0 +1,9 @@
+INDEX VERSION 1.126
+D:\project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\152476157.index
+\text01\src
+D:\project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\17145832.index
+\LoginText\src
+C:\Users\1345019668\Desktop\project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\17145832.index
+\LoginText\src
+D:\project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\70367663.index
+\LoginText\src

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Test1</servlet-name>
+    <servlet-class>controller.Test1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateVerfifyCodeImage</servlet-name>
+    <servlet-class>controller.CreateVerfifyCodeImage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetDownloadListController</servlet-name>
+    <servlet-class>controller.GetDownloadListController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Createlmage</servlet-name>
+    <servlet-class>model.dao.Createlmage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadDao</servlet-name>
+    <servlet-class>model.dao.DownloadDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDao</servlet-name>
+    <servlet-class>model.dao.UserDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JdbcUtil</servlet-name>
+    <servlet-class>tools.JdbcUtil</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>model.vo.Download</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User</servlet-name>
+    <servlet-class>model.vo.User</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadController</servlet-name>
+    <servlet-class>controller.DownloadController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutController</servlet-name>
+    <servlet-class>controller.LogoutController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxLoginCheck</servlet-name>
+    <servlet-class>controller.AjaxLoginCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>queryProvinceCity</servlet-name>
+    <servlet-class>controller.queryProvinceCity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProvinceCityDao</servlet-name>
+    <servlet-class>model.dao.ProvinceCityDao</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Test1</servlet-name>
+    <url-pattern>/servlet/Test1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateVerfifyCodeImage</servlet-name>
+    <url-pattern>/servlet/CreateVerfifyCodeImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDownloadListController</servlet-name>
+    <url-pattern>/servlet/GetDownloadListController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/servlet/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Createlmage</servlet-name>
+    <url-pattern>/servlet/Createlmage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadDao</servlet-name>
+    <url-pattern>/servlet/DownloadDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDao</servlet-name>
+    <url-pattern>/servlet/UserDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JdbcUtil</servlet-name>
+    <url-pattern>/servlet/JdbcUtil</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/servlet/Download</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User</servlet-name>
+    <url-pattern>/servlet/User</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadController</servlet-name>
+    <url-pattern>/servlet/DownloadController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutController</servlet-name>
+    <url-pattern>/servlet/LogoutController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxLoginCheck</servlet-name>
+    <url-pattern>/servlet/AjaxLoginCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>queryProvinceCity</servlet-name>
+    <url-pattern>/servlet/queryProvinceCity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProvinceCityDao</servlet-name>
+    <url-pattern>/servlet/ProvinceCityDao</url-pattern>
+  </servlet-mapping>
+  </web-app>

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body {
+    background-image: url(bg1.jpg);
+    font-size: 14px;
+}
+
+#loginForm {
+    width: 380px;
+    height: 230px;
+    background-color: burlywood;
+    margin: 200px auto;
+    padding-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: lem;
+}
+#loginForm p {
+    text-indent: 45px;
+}
+#userName,
+#password,
+#vcode {
+    height: 30px;
+    border: 1px solid #ccc;
+    text-indent: 24px;
+}
+
+#userName {
+    width: 280px;
+    background-image: url(uses.png);
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+
+#password {
+    width: 280px;
+    background-image: url(lock.png);
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+
+#vcode {
+    background-image: url(lock.png);
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+
+#vcodeImg {
+    cursor: pointer;
+    border: 0;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#btLogin {
+    width: 280px;
+    height: 35px;
+    background-color: rebeccapurple;
+    color: #fff;
+    font-weight: bold;
+}
